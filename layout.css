@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+li:nth-child(even) {
+  background-color: #e0eac4;
+}
+
+li {
+  border-radius: 0 0 10px 0;
+  padding: 1rem;
+}
+
+#sisalto {
+  display: flex;
+}
+#sailio1 {
+  margin: 1rem;
+  flex-basis: 0;
+  flex-grow: 2;
+}
+#sailio2 {
+  margin: 1rem;
+  flex-basis: 0;
+  flex-grow: 1;
+}
